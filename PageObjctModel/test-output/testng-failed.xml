@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRMS]">
+  <parameter name="testId" value="TC_Login_002"/>
+  <test name="TC_Login_002(failed)">
+    <parameter name="testId" value="TC_Login_002"/>
+    <classes>
+      <class name="testDrivers.TestDriver">
+        <methods>
+          <include name="tDriver" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testDrivers.TestDriver -->
+    </classes>
+  </test> <!-- TC_Login_002(failed) -->
+</suite> <!-- Failed suite [HRMS] -->
